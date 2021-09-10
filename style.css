@@ -1,9 +1,19 @@
 body{
-    background-color: rgb(226, 251, 249) ;
+    background-color: rgb(223, 240, 255);
+    background-size: cover;
+    padding: 2%;
+    margin: 1%;
 }
+.main{
+    background-image: url(bg4.jpg);
+    padding: 10px;
+    margin: 10px;
+}
+
 
 header{
     text-align: center;
+    background-color: grey;
     padding:4%;
 }
 .option{
@@ -19,45 +29,102 @@ header{
 .option:hover{
     color: rgb(151, 120, 62);
 }
+.abt{
+    padding: 12%;
+}
 .intro{
     text-align:start;
-    padding: 8%;
+    padding: 6%;
     font-family: cursive;
     color: rgb(0, 0, 0);
     box-sizing: border-box;
     width: 50%;
     float: left;
 }
-
+.text{
+    text-align: justify;
+}
 #about{
-    padding: 10%;    
-}
-.t3{
-    background-color: blueviolet;
-}
-.type3{
-    text-align: center;
-    font-size: 200%;
-    font-family: monospace;
-    font-weight: 700;
+    padding: 2%;  
+    text-align: center;  
 }
 
+.t3, .t4, .t5{
+    text-align: center;
+}
 .skills{
     text-align:start;
-    padding: 8%;
+    padding: 3%;
     font-family: cursive;
     color: rgb(0, 0, 0);
     box-sizing: border-box;
-    width: 25%;
+    width: 33%;
+    float:left;
+    background-color: cornflowerblue;
+    margin: 1%;
+}
+.t3{
+    box-sizing: border-box;
+    width: 50%;
     float: left;
-    background-color: lightgreen;
-    margin: 5%;
-    background-size: 25%;
+}
+.skillhead{
+    text-align: center;
+    padding: 5%;
+}
+.form, .google, .amazon{
+    box-sizing: border-box;
+    height: 200px;
+    width: 30%;
+    float: left;
+    padding: 6%;
+    margin: 10px;
+}
+.form{
+    background-image: url(pay_form.png);
+    background-size: cover;
+}
+.google{
+    background-image: url(googlepage.png);
+    background-size: cover;
+}
+.amazon{
+    background-image: url(amazon_clone.png);
+    background-size: cover;
+}
+.project{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+    font-size: 0.5cm;
+    font-weight: 500;
+    text-align;
+}
+.project:hover{
+    color: rgb(224, 198, 79);
+}
+.contact{
+    text-align:center;
+    padding: 2%;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    width: 50%;
+    float:left;
 }
 
-.type4{
+footer{
+    background-color: rgb(75, 75, 87);
+    color: black;
+    padding: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+    font-size: 0.5cm;
+    font-weight: 500;
     text-align: center;
-    font-size: 200%;
-    font-family: monospace;
-    font-weight: 700;
+}
+.social_media{
+    padding: 2%;
 }
