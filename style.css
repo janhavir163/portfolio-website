@@ -10,7 +10,6 @@ body{
     margin: 10px;
 }
 
-
 header{
     text-align: center;
     background-color: grey;
@@ -43,10 +42,13 @@ header{
 }
 .text{
     text-align: justify;
+    font-size: 120%;
+    font-weight: 500;
 }
 #about{
     padding: 2%;  
-    text-align: center;  
+    text-align: center;
+    font-size: large;  
 }
 
 .t3, .t4, .t5{
@@ -58,9 +60,10 @@ header{
     font-family: cursive;
     color: rgb(0, 0, 0);
     box-sizing: border-box;
-    width: 33%;
+    height: 15%;
+    width: 45%;
     float:left;
-    background-color: cornflowerblue;
+    background-color: rgb(22, 175, 175);
     margin: 1%;
 }
 .t3{
@@ -71,6 +74,12 @@ header{
 .skillhead{
     text-align: center;
     padding: 5%;
+    font-size: 200%;
+}
+.project_head{
+    text-align: center;
+    padding: 4%;
+    font-size: 200%;
 }
 .form, .google, .amazon{
     box-sizing: border-box;
@@ -79,6 +88,7 @@ header{
     float: left;
     padding: 6%;
     margin: 10px;
+    border: rgb(0, 0, 0) 2px solid;
 }
 .form{
     background-image: url(pay_form.png);
@@ -98,8 +108,8 @@ header{
     font-size: 100%;
     text-decoration: none;
     font-size: 0.5cm;
-    font-weight: 500;
-    text-align;
+    font-weight: 700;
+    text-align:start;
 }
 .project:hover{
     color: rgb(224, 198, 79);
